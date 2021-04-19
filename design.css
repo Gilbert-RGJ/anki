@@ -2,6 +2,60 @@
     margin: 0;
     padding: 0;
 }
-body {
-    
+.main {
+    width: 100%;
+    height: 700px;
+    background-image: url("bg1.jpg");
+    background-size: cover;
+}
+.main nav {
+    width: 100%;
+    height: 80px;
+    background-color:black;
+    line-height: 80px;
+    opacity: 0.7;
+}
+.main nav ul {
+    float: right;
+    margin-right: 150px;
+}
+.main nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s;
+}
+.main nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+.main nav ul li a:hover{
+    background: rgb(34, 34, 34);
+    border-radius: 6px;
+}
+.variety nav {
+    width: 100%;
+    height: 80px;
+    background-color:black;
+    border-bottom: 20px rgb(255, 255, 255);
+    line-height: 80px;
+}
+.variety nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s;
+}
+.variety nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+}
+.variety nav ul li a:hover{
+    background: rgb(34, 34, 34);
+    border-radius: 20px;
+}
+.types {
+    padding: 30px;
+    padding-left: 250px;
+    display:inline-flex;
 }
