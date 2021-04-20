@@ -9,6 +9,9 @@
     background-image: url("bg1.jpg");
     background-size: cover;
 }
+.main a img {
+    margin-left: 1200px;
+}
 .main nav {
     width: 100%;
     height: 80px;
